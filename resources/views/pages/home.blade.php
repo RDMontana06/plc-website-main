@@ -232,7 +232,7 @@
 						</div>
 						<div class="item">
 							<div class="property-wrap ftco-animate">
-								<a href="#" class="img" style="background-image: url(images/properties/Mondrian_Bistro.jpg);">
+								<a href="#" class="img" style="background-image: url(images/properties/mondrian_bistro.jpg);">
 									<div class="rent-sale">
 										<span class="rent">Rent</span>
 									</div>

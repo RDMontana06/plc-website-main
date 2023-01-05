@@ -29,3 +29,19 @@ Route::get('/properties', function () {
         )
     );
 });
+Route::get('/about', function () {
+    return view(
+        'pages.about',
+        array(
+            'header' => 'about',
+        )
+    );
+});
+Route::get('/contact', function () {
+    return view(
+        'pages.contact',
+        array(
+            'header' => 'contact',
+        )
+    );
+});

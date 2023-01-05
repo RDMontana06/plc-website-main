@@ -443,7 +443,7 @@
 		</div>
 	</section>
 
-	<section class="ftco-section testimony-section bg-light">
+	{{-- <section class="ftco-section testimony-section bg-light">
 		<div class="container">
 			<div class="row justify-content-center mb-5">
 				<div class="col-md-7 text-center heading-section ftco-animate">
@@ -538,9 +538,9 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> --}}
 
-	<section class="ftco-section ftco-agent">
+	{{-- <section class="ftco-section ftco-agent">
 		<div class="container">
 			<div class="row justify-content-center pb-5">
 				<div class="col-md-12 heading-section text-center ftco-animate">
@@ -595,10 +595,10 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> --}}
 
 
-	<section class="ftco-section ftco-no-pt">
+	{{-- <section class="ftco-section ftco-no-pt">
 		<div class="container">
 			<div class="row justify-content-center mb-5">
 				<div class="col-md-7 heading-section text-center ftco-animate">
@@ -665,7 +665,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> --}}
 
 
 

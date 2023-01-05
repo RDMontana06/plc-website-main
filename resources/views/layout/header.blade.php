@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="{{ asset('css/flaticon.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
-    <link href="{{ asset('css/fontawesome6/css/all.min.css') }} " rel="stylesheet">
+    <link href="{{ asset('css/fontawesome6/css/all.min.css') }}" rel="stylesheet">
   </head>
   <body>
 	

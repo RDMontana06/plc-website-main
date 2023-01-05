@@ -2,10 +2,10 @@
 <html lang="en">
   <head>
     <title>Premiumlands Corporation</title>
-    <meta content="Holdings, Construction Company, Shipping, Logistics, Ship Building" name="keywords">
-    <meta content="Premium Infinite Ventures" property="og:title">
-    <meta content="Holdings, Construction Company, Shipping, Logistics, Ship Building" property="og:description">
-    <meta content="{{ asset('img/PIVI_FINAL_PNG-02.png') }}" property="og:image">
+    <meta content="Real estate, Real estate Company, Rent, Lease, Properties" name="keywords">
+    <meta content="Premiulands Corporation" property="og:title">
+    <meta content="Real estate, Real estate Company, Rent, Lease, Propertie" property="og:description">
+    <meta content="{{ asset('images/logo/plc-icon.png') }}" property="og:image">
     <meta content="https://www.premiumlandscorp.com/" property="og:url">
     <!-- Favicons -->
     <link rel="icon" type="image/png" href="{{ asset('images/logo/plc-icon.png') }}" />

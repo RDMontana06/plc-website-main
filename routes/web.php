@@ -45,3 +45,11 @@ Route::get('/contact', function () {
         )
     );
 });
+Route::get('/mondrian', function () {
+    return view(
+        'pages.mondrian_property',
+        array(
+            'header' => 'properties',
+        )
+    );
+});

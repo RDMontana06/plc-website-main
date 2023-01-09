@@ -121,7 +121,7 @@
 		        				</ul> --}}
 									<h3><a href="#">PMI Tower</a></h3>
 									<span class="location">Cabanillas corner. 273 Pablo Ocampo Sr. Ext. Makati City, Philippines</span>
-									<a href="#" class="d-flex align-items-center justify-content-center btn-custom">
+									<a href="{{ url('pmi_tower') }}" class="d-flex align-items-center justify-content-center btn-custom">
 										<span class="fa fa-link"></span>
 									</a>
 									<div class="list-team d-flex align-items-center mt-2 pt-2 border-top">
@@ -179,7 +179,7 @@
 		        				</ul> --}}
 									<h3><a href="#">The Mondrian</a></h3>
 									<span class="location">1423 Pablo Ocampo Sr. Ext. San Antonio Village, Makati City, Philippines</span>
-									<a href="#" class="d-flex align-items-center justify-content-center btn-custom">
+									<a href="{{ url('mondrian') }}" class="d-flex align-items-center justify-content-center btn-custom">
 										<span class="fa fa-link"></span>
 									</a>
 									<div class="list-team d-flex align-items-center mt-2 pt-2 border-top">

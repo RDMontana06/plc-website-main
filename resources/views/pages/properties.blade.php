@@ -99,13 +99,13 @@
 									<a href="{{ url('pmi_tower') }}" class="d-flex align-items-center justify-content-center btn-custom">
 										<span class="fa fa-link"></span>
 									</a>
-									<div class="list-team d-flex align-items-center mt-2 pt-2 border-top">
+									{{-- <div class="list-team d-flex align-items-center mt-2 pt-2 border-top">
 										<div class="d-flex align-items-center">
 											<div class="img" style="background-image: url(images/person_1.jpg);"></div>
 											<h3 class="ml-2">John Dorf</h3>
 										</div>
 										<span class="text-right">2 weeks ago</span>
-									</div>
+									</div> --}}
 								</div>
 							</div>
 						</div>
@@ -128,13 +128,7 @@
 									<a href="{{ url('market_mall') }}" class="d-flex align-items-center justify-content-center btn-custom">
 										<span class="fa fa-link"></span>
 									</a>
-									<div class="list-team d-flex align-items-center mt-2 pt-2 border-top">
-										<div class="d-flex align-items-center">
-											<div class="img" style="background-image: url(images/person_1.jpg);"></div>
-											<h3 class="ml-2">John Dorf</h3>
-										</div>
-										<span class="text-right">2 weeks ago</span>
-									</div>
+
 								</div>
 							</div>
 						</div>
@@ -157,13 +151,7 @@
 									<a href="{{ url('mondrian') }}" class="d-flex align-items-center justify-content-center btn-custom">
 										<span class="fa fa-link"></span>
 									</a>
-									<div class="list-team d-flex align-items-center mt-2 pt-2 border-top">
-										<div class="d-flex align-items-center">
-											<div class="img" style="background-image: url(images/person_1.jpg);"></div>
-											<h3 class="ml-2">John Dorf</h3>
-										</div>
-										<span class="text-right">2 weeks ago</span>
-									</div>
+
 								</div>
 							</div>
 						</div>

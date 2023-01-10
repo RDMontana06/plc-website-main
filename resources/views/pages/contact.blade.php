@@ -1,5 +1,6 @@
 @extends('layout.main')
 @section('content')
+
 	<section class="hero-wrap hero-wrap-2" style="background-image: url('assets/img/hero-section/PMI_Tower.jpg');"
 		data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>

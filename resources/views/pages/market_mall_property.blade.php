@@ -56,7 +56,7 @@ img{
 						<span>The
 							Mondrian <i class="fa fa-chevron-right"></i></span>
 					</p>
-					<h1 class="mb-3 bread">The Mondrian Details</h1>
+					<h1 class="mb-3 bread">Market Mall Details</h1>
 				</div>
 			</div>
 		</div>
@@ -151,7 +151,7 @@ img{
 								business districts of Makati City.
 							</p>
 						</div>
-                  <div class="tab-pane fade" id="loc" role="tabpanel" aria-labelledby="loc-tab">
+                        <div class="tab-pane fade" id="loc" role="tabpanel" aria-labelledby="loc-tab">
                     	<div class="d-block w-100">
 					<div class="mapouter">
 						<div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas"
@@ -178,12 +178,9 @@ img{
 					</div>
 				</div>
 
-                        </div>
 					</div>
 				</div>
-                <div class="row justify-content-center">
 
-			</div>
 			</div>
 
 		</div>

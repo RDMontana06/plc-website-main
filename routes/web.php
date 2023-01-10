@@ -53,3 +53,19 @@ Route::get('/mondrian', function () {
         )
     );
 });
+Route::get('/pmi_tower', function () {
+    return view(
+        'pages.pmi_property',
+        array(
+            'header' => 'properties',
+        )
+    );
+});
+Route::get('/market_mall', function () {
+    return view(
+        'pages.market_mall_property',
+        array(
+            'header' => 'properties',
+        )
+    );
+});

@@ -53,32 +53,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-lg align-items-end">
-									<div class="form-group">
-										<label for="#">Price Limit</label>
-										<div class="form-field">
-											<div class="select-wrap">
-												<div class="icon"><span class="fa fa-chevron-down"></span></div>
-												<select name="" id="" class="form-control">
-													<option class='black-renz' value="">$5,000</option>
-													<option class='black-renz' value="">$10,000</option>
-													<option class='black-renz' value="">$50,000</option>
-													<option class='black-renz' value="">$100,000</option>
-													<option class='black-renz' value="">$200,000</option>
-													<option class='black-renz' value="">$300,000</option>
-													<option class='black-renz' value="">$400,000</option>
-													<option class='black-renz' value="">$500,000</option>
-													<option class='black-renz' value="">$600,000</option>
-													<option class='black-renz' value="">$700,000</option>
-													<option class='black-renz' value="">$800,000</option>
-													<option class='black-renz' value="">$900,000</option>
-													<option class='black-renz' value="">$1,000,000</option>
-													<option class='black-renz' value="">$2,000,000</option>
-												</select>
-											</div>
-										</div>
-									</div>
-								</div>
+
 								<div class="col-lg align-self-end">
 									<div class="form-group">
 										<div class="form-field">
@@ -150,7 +125,7 @@
 		        				</ul> --}}
 									<h3><a href="#">Market Mall</a></h3>
 									<span class="location">Real St. District 6, <br> Ormoc City, Philippines</span>
-									<a href="#" class="d-flex align-items-center justify-content-center btn-custom">
+									<a href="{{ url('market_mall') }}" class="d-flex align-items-center justify-content-center btn-custom">
 										<span class="fa fa-link"></span>
 									</a>
 									<div class="list-team d-flex align-items-center mt-2 pt-2 border-top">

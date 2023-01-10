@@ -16,6 +16,8 @@
 					{{-- <li class="nav-item"><a href="#" class="nav-link">Agent</a></li> --}}
 					{{-- <li class="nav-item"><a href="#" class="nav-link">Services</a></li> --}}
 					<li class="nav-item {{ $header == 'properties' ? 'active' : '' }}"><a href="{{ url('properties') }}" class="nav-link">Properties</a></li>
+					<li class="nav-item {{ $header == 'partners' ? 'active' : '' }}"><a href="{{ url('partners') }}" class="nav-link">Partners</a></li>
+
 					{{-- <li class="nav-item"><a href="#" class="nav-link">Blog</a></li> --}}
 					<li class="nav-item {{ $header == 'contact' ? 'active' : '' }}"><a href="{{ url('contact') }}" class="nav-link">Contact</a></li>
 				</ul>

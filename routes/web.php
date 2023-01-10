@@ -45,6 +45,14 @@ Route::get('/contact', function () {
         )
     );
 });
+Route::get('/partners', function () {
+    return view(
+        'pages.partners',
+        array(
+            'header' => 'partners',
+        )
+    );
+});
 Route::get('/mondrian', function () {
     return view(
         'pages.mondrian_property',

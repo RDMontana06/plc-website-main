@@ -155,26 +155,39 @@ img{
                     	<div class="d-block w-100">
 					<div class="mapouter">
 						<div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas"
-								src="https://maps.google.com/maps?q=PMI%20Tower&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
-								scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://2piratebay.org"></a><br>
-							<style>
-								.mapouter {
-									position: relative;
-									text-align: right;
-									height: 500px;
-									width: 50vw;
-                                    margin-top:2rem;
-								}
-							</style><a href="https://www.embedgooglemap.net">google map embed responsive</a>
-							<style>
-								.gmap_canvas {
-									overflow: hidden;
-									background: none !important;
-									height: 300px;
-									width: 600px;
-								}
-							</style>
-						</div>
+                            src="https://maps.google.com/maps?q=The%20Mondrian&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                            scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://2piratebay.org"></a><br>
+                        <style>
+                            .mapouter {
+                                position: relative;
+                                text-align: right;
+                                height: 350px;
+                            /* width: 50vw; */
+                                margin-top:2rem;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+
+                            }
+                        </style><a href="https://www.embedgooglemap.net">google map embed responsive</a>
+                        <style>
+                            .gmap_canvas {
+                                overflow: hidden;
+                                background: none !important;
+                                height: 300px;
+                                width: 40vw;
+                            }
+                            @media screen and (max-width:768px){
+                                .gmap_canvas {
+                                overflow: hidden;
+                                background: none !important;
+                                height: 300px;
+                                width: 90vw;
+                                margin:auto;
+                            }
+                            }
+                        </style>
+                    </div>
 					</div>
 				</div>
 

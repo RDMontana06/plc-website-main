@@ -117,11 +117,11 @@
 						</li>
 						<li class="nav-item" role="presentation">
 							<a class="nav-link" id="loc-tab" data-bs-toggle="pill" data-bs-target="#loc" type="button" role="tab"
-								aria-controls="description" aria-selected="false">Location</a>
+								aria-controls="location" aria-selected="false">Location</a>
 						</li>
 					</ul>
-					{{-- <div class="tab-content" id="myTabContent">
-						<div class="tab-pane fade show active" id="features" role="tabpanel" aria-labelledby="features-tab">
+					<div class="tab-content" id="myTabContent">
+						{{-- <div class="tab-pane fade show active" id="features" role="tabpanel" aria-labelledby="features-tab">
 							<div class="row">
 								<div class="col-md-4">
 									<ul class="features">
@@ -139,7 +139,7 @@
 									</ul>
 								</div>
 							</div>
-						</div> --}}
+						</div> --}} 
 						<div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="profile-tab">
 							<p>
 								Based in Ormoc City, Market Mall Ormoc is a

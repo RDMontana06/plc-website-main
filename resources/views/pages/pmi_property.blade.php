@@ -7,16 +7,19 @@
 			cursor: pointer;
 		}
 
-		.swiper-button-prev,
-		.swiper-button-next {
-			background: rgba(0, 0, 0, 0.2);
-			width: 45px;
-			height: 45px;
-			line-height: 53px;
-			margin-top: -30px;
-			text-align: center;
-			border: 2px solid #fff;
-			box-shadow: 0px 0px 1px 2px rgba(0, 0, 0, 0.1);
+/* .check{
+    white-space: nowrap;
+} */
+.swiper-button-prev,
+.swiper-button-next {
+  background: rgba(0,0,0,0.2);
+  width: 45px;
+  height: 45px;
+  line-height: 53px;
+  margin-top: -30px;
+  text-align: center;
+  border: 2px solid #fff;
+  box-shadow: 0px 0px 1px 2px rgba(0,0,0,0.1);
 
 			border-radius: 55px;
 			opacity: 0;
@@ -121,17 +124,49 @@
 					<div class="tab-content" id="myTabContent">
 						<div class="tab-pane fade show active" id="features" role="tabpanel" aria-labelledby="features-tab">
 							<div class="row">
-								<div class="col-md-4">
-									<ul class="features">
-										<li class="check"><span class="fa fa-check-circle"></span>Elevator</li>
-										<li class="check"><span class="fa fa-check-circle"></span>Pantry</li>
-										<li class="check"><span class="fa fa-check-circle"></span>Storage Area</li>
-										<li class="check"><span class="fa fa-check-circle"></span>Toilets</li>
-										<li class="check"><span class="fa fa-check-circle"></span>Balcony</li>
-										<li class="check"><span class="fa fa-check-circle"></span>Reception</li>
-										<li class="check"><span class="fa fa-check-circle"></span>Offices</li>
-										<li class="check"><span class="fa fa-check-circle"></span>24/7 Security</li>
-									</ul>
+								<div class="col-md-16">
+
+                                    <div class="container">
+                                        <div class="row ">
+                                            <div class="col-md-6">
+                                                <ul class="features">
+                                                <li class="check"><span class="fa fa-check-circle"></span>4 ELEVATORS Designated for higher floors</li>
+                                                <li class="check"><span class="fa fa-check-circle"></span>3 Elevators for Tenant Use</li>
+                                                <li class="check"><span class="fa fa-check-circle"></span>Conglomerate Lobby</li>
+                                                <li class="check"><span class="fa fa-check-circle"></span>Reception</li>
+                                                <li class="check"><span class="fa fa-check-circle"></span>Face Recognition Turnstile</li>
+                                                <li class="check"><span class="fa fa-check-circle"></span>Main Tenant Lobby</li>
+                                                <li class="check"><span class="fa fa-check-circle"></span>Common Lobby</li>
+                                                <li class="check"><span class="fa fa-check-circle"></span>Food Court</li>
+                                                <li class="check"><span class="fa fa-check-circle"></span>Basketball Court/ Volleyball Court</li>
+                                                <li class="check"><span class="fa fa-check-circle"></span>Badminton Court</li>
+                                                <li class="check"><span class="fa fa-check-circle"></span>Infinity Pool</li>
+                                                <li class="check"><span class="fa fa-check-circle"></span>Sky Lounge</li>
+                                            </ul>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <ul class="features">
+                                                <li class="check"><span class="fa fa-check-circle"></span>Auditorium</li>
+                                                <li class="check"><span class="fa fa-check-circle"></span>Gymnasium</li>
+                                                <li class="check"><span class="fa fa-check-circle"></span>Massage Room</li>
+                                                <li class="check"><span class="fa fa-check-circle"></span>Mini Golf Course</li>
+                                                <li class="check"><span class="fa fa-check-circle"></span>Bowling Alley</li>
+                                                <li class="check"><span class="fa fa-check-circle"></span>Firing Range</li>
+                                                <li class="check"><span class="fa fa-check-circle"></span>LED Monitor at the façade of the building</li>
+                                                <li class="check"><span class="fa fa-check-circle"></span>Helipad</li>
+                                                <li class="check"><span class="fa fa-check-circle"></span>24/7 security</li>
+                                                <li class="check"><span class="fa fa-check-circle"></span>Storage Area</li>
+                                                <li class="check"><span class="fa fa-check-circle"></span>Offices</li>
+                                                <li class="check"><span class="fa fa-check-circle"></span>Commercial</li>
+                                            </ul>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+
+
 								</div>
 							</div>
 						</div>

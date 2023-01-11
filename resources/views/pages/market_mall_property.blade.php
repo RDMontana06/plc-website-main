@@ -126,13 +126,16 @@
 								<div class="col-md-4">
 									<ul class="features">
 										<li class="check"><span class="fa fa-check-circle"></span>Elevator</li>
-										<li class="check"><span class="fa fa-check-circle"></span>Pantry</li>
-										<li class="check"><span class="fa fa-check-circle"></span>Storage Area</li>
-										<li class="check"><span class="fa fa-check-circle"></span>Toilets</li>
-										<li class="check"><span class="fa fa-check-circle"></span>Balcony</li>
-										<li class="check"><span class="fa fa-check-circle"></span>Reception</li>
-										<li class="check"><span class="fa fa-check-circle"></span>Offices</li>
-										<li class="check"><span class="fa fa-check-circle"></span>24/7 Security</li>
+										<li class="check"><span class="fa fa-check-circle"></span>Escalator</li>
+										<li class="check"><span class="fa fa-check-circle"></span>Basement Parking</li>
+										<li class="check"><span class="fa fa-check-circle"></span>Supermarket</li>
+										<li class="check"><span class="fa fa-check-circle"></span>Commercial Areas</li>
+										<li class="check"><span class="fa fa-check-circle"></span>Function Rooms</li>
+										<li class="check"><span class="fa fa-check-circle"></span>Hotel Rooms</li>
+										<li class="check"><span class="fa fa-check-circle"></span>Lower Penthouse - Indoor Dining and Music Lounge</li>
+										<li class="check"><span class="fa fa-check-circle"></span>Upper Penthouse - Indoor and Outdoor Dining
+                                            Infinity Pool</li>
+
 									</ul>
 								</div>
 							</div>

@@ -17,10 +17,7 @@
 	</section>
 	<section class="ftco-section contact-section">
 		<div class="container">
-
-            <img src="{{ asset('assets/img/partner/partners.png') }}" class="d-block w-100 h-100" alt="...">
-
-
+        <img src="{{ asset('assets/img/Partner/partners.png') }}" class="d-block w-100 h-100" alt="...">
 		</div>
 	</section>
 @endsection

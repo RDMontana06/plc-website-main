@@ -9,7 +9,9 @@
 img{
     cursor: pointer;
 }
-
+.check{
+    white-space: nowrap;
+}
 .swiper-button-prev,
 .swiper-button-next {
   background: rgba(0,0,0,0.2);
@@ -53,8 +55,7 @@ img{
 				<div class="col-md-9 ftco-animate pb-0 text-center">
 					<p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="fa fa-chevron-right"></i></a></span>
 						<span class="mr-2"><a href="{{ url('properties') }}">Properties <i class="fa fa-chevron-right"></i></a></span>
-						<span>The
-							Mondrian <i class="fa fa-chevron-right"></i></span>
+						<span>Market Mall <i class="fa fa-chevron-right"></i></span>
 					</p>
 					<h1 class="mb-3 bread">Market Mall Details</h1>
 				</div>
@@ -67,28 +68,28 @@ img{
 				<div class="col-md-6">
 					<div class="property-details">
 						<div class="text">
-							<span class="subheading">1423 Pablo Ocampo Sr. Ext. San Antonio Village, Makati City, Philippines</span>
-							<h2>The Mondrian</h2>
+							<span class="subheading">Real St. District 6, <br> Ormoc City, Philippines</span>
+							<h2>Market Mall</h2>
 						</div>
 						<div  class="swiper mySwiper" >
 							<div class="swiper-wrapper">
 								<div class="swiper-slide active">
-									<img src="{{ asset('assets/img/properties/mondrian/01.jpg') }}" class="d-block w-100 h-100" alt="...">
+									<img src="{{ asset('assets/img/properties/market-mall/01.jpg') }}" class="d-block w-100 h-100" alt="...">
 								</div>
 								<div class="swiper-slide">
-									<img src="{{ asset('assets/img/properties/mondrian/02.jpg') }}" class="d-block w-100 h-100" alt="...">
+									<img src="{{ asset('assets/img/properties/market-mall/02.jpg') }}" class="d-block w-100 h-100" alt="...">
 								</div>
 								<div class="swiper-slide">
-									<img src="{{ asset('assets/img/properties/mondrian/03.jpg') }}" class="d-block w-100 h-100" alt="...">
+									<img src="{{ asset('assets/img/properties/market-mall/03.jpg') }}" class="d-block w-100 h-100" alt="...">
 								</div>
 								<div class="swiper-slide">
-									<img src="{{ asset('assets/img/properties/mondrian/04.jpg') }}" class="d-block w-100 h-100" alt="...">
+									<img src="{{ asset('assets/img/properties/market-mall/04.jpg') }}" class="d-block w-100 h-100" alt="...">
 								</div>
 								<div class="swiper-slide">
-									<img src="{{ asset('assets/img/properties/mondrian/05.jpg') }}" class="d-block w-100 h-100" alt="...">
+									<img src="{{ asset('assets/img/properties/market-mall/05.jpg') }}" class="d-block w-100 h-100" alt="...">
 								</div>
 								<div class="swiper-slide">
-									<img src="{{ asset('assets/img/properties/mondrian/06.jpg') }}" class="d-block w-100 h-100" alt="...">
+									<img src="{{ asset('assets/img/properties/market-mall/06.jpg') }}" class="d-block w-100 h-100" alt="...">
 								</div>
 							</div>
                             <div class="swiper-button-next"></div>
@@ -137,19 +138,15 @@ img{
 						</div>
 						<div class="tab-pane fade" id="description" role="tabpanel" aria-labelledby="profile-tab">
 							<p>
-								Locally owned by Premiumlands Corp., it is standing
-								in a strategic boundary of a booming business and
-								commercial district of Makati City. The property is
-								conveniently accessible through access points from
-								Manila to Makati.
+								Based in Ormoc City, Market Mall Ormoc is a
+                                9-storey mixed-use commercial building and
+                                hotel with basement parking space.
+                                Locally owned by Premiumlands Corp., it is a
+                                shopping mall and executive / business-class
+                                hotel with basement, function room, and
+                                penthouse with infinity pool
 							</p>
-							<p>
-								The property is conveniently accessible through
-								access points from Manila to Makati. Its proximity
-								allows employees to move around the metro
-								within minutes and easily access the prime
-								business districts of Makati City.
-							</p>
+
 						</div>
                         <div class="tab-pane fade" id="loc" role="tabpanel" aria-labelledby="loc-tab">
                     	<div class="d-block w-100">
@@ -163,7 +160,7 @@ img{
                                 text-align: right;
                                 height: 350px;
                             /* width: 50vw; */
-                                margin-top:2rem;
+                            margin-top:-.7rem;
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;

@@ -10,6 +10,9 @@ img{
     cursor: pointer;
 }
 
+.check{
+    white-space: nowrap;
+}
 .swiper-button-prev,
 .swiper-button-next {
   background: rgba(0,0,0,0.2);
@@ -67,28 +70,28 @@ img{
 				<div class="col-md-6">
 					<div class="property-details">
 						<div class="text">
-							<span class="subheading">1423 Pablo Ocampo Sr. Ext. San Antonio Village, Makati City, Philippines</span>
-							<h2>The Mondrian</h2>
+							<span class="subheading">Cabanillas corner. 273 Pablo Ocampo Sr. Ext. Makati City, Philippines</span>
+							<h2>PMI Tower</h2>
 						</div>
 						<div  class="swiper mySwiper" >
 							<div class="swiper-wrapper">
 								<div class="swiper-slide active">
-									<img src="{{ asset('assets/img/properties/mondrian/01.jpg') }}" class="d-block w-100 h-100" alt="...">
+									<img src="{{ asset('assets/img/properties/pmi-tower/01.jpg') }}" class="d-block w-100 h-100" alt="...">
 								</div>
 								<div class="swiper-slide">
-									<img src="{{ asset('assets/img/properties/mondrian/02.jpg') }}" class="d-block w-100 h-100" alt="...">
+									<img src="{{ asset('assets/img/properties/pmi-tower/02.jpg') }}" class="d-block w-100 h-100" alt="...">
 								</div>
 								<div class="swiper-slide">
-									<img src="{{ asset('assets/img/properties/mondrian/03.jpg') }}" class="d-block w-100 h-100" alt="...">
+									<img src="{{ asset('assets/img/properties/pmi-tower/03.jpg') }}" class="d-block w-100 h-100" alt="...">
 								</div>
 								<div class="swiper-slide">
-									<img src="{{ asset('assets/img/properties/mondrian/04.jpg') }}" class="d-block w-100 h-100" alt="...">
+									<img src="{{ asset('assets/img/properties/pmi-tower/04.jpg') }}" class="d-block w-100 h-100" alt="...">
 								</div>
 								<div class="swiper-slide">
-									<img src="{{ asset('assets/img/properties/mondrian/05.jpg') }}" class="d-block w-100 h-100" alt="...">
+									<img src="{{ asset('assets/img/properties/pmi-tower/05.jpg') }}" class="d-block w-100 h-100" alt="...">
 								</div>
 								<div class="swiper-slide">
-									<img src="{{ asset('assets/img/properties/mondrian/06.jpg') }}" class="d-block w-100 h-100" alt="...">
+									<img src="{{ asset('assets/img/properties/pmi-tower/06.jpg') }}" class="d-block w-100 h-100" alt="...">
 								</div>
 							</div>
                             <div class="swiper-button-next"></div>
@@ -123,32 +126,45 @@ img{
 							<div class="row">
 								<div class="col-md-4">
 									<ul class="features">
-										<li class="check"><span class="fa fa-check-circle"></span>Elevator</li>
-										<li class="check"><span class="fa fa-check-circle"></span>Pantry</li>
-										<li class="check"><span class="fa fa-check-circle"></span>Storage Area</li>
-										<li class="check"><span class="fa fa-check-circle"></span>Toilets</li>
-										<li class="check"><span class="fa fa-check-circle"></span>Balcony</li>
+										<li class="check"><span class="fa fa-check-circle"></span>4 ELEVATORS Designated for higher floors</li>
+										<li class="check"><span class="fa fa-check-circle"></span>3 Elevators for Tenant Use</li>
+										<li class="check"><span class="fa fa-check-circle"></span>Conglomerate Lobby</li>
 										<li class="check"><span class="fa fa-check-circle"></span>Reception</li>
-										<li class="check"><span class="fa fa-check-circle"></span>Offices</li>
-										<li class="check"><span class="fa fa-check-circle"></span>24/7 Security</li>
+										<li class="check"><span class="fa fa-check-circle"></span>Face Recognition Turnstile</li>
+										<li class="check"><span class="fa fa-check-circle"></span>Main Tenant Lobby</li>
+										<li class="check"><span class="fa fa-check-circle"></span>Common Lobby</li>
+										<li class="check"><span class="fa fa-check-circle"></span>Food Court</li>
+                                        <li class="check"><span class="fa fa-check-circle"></span>Basketball Court/ Volleyball Court</li>
+                                        <li class="check"><span class="fa fa-check-circle"></span>Badminton Court</li>
+                                        <li class="check"><span class="fa fa-check-circle"></span>Infinity Pool</li>
+                                        <li class="check"><span class="fa fa-check-circle"></span>Sky Lounge</li>
+                                        <li class="check"><span class="fa fa-check-circle"></span>Auditorium</li>
+                                        <li class="check"><span class="fa fa-check-circle"></span>Gymnasium</li>
+                                        <li class="check"><span class="fa fa-check-circle"></span>Massage Room</li>
+                                        <li class="check"><span class="fa fa-check-circle"></span>Mini Golf Course</li>
+                                        <li class="check"><span class="fa fa-check-circle"></span>Bowling Alley</li>
+                                        <li class="check"><span class="fa fa-check-circle"></span>Firing Range</li>
+                                        <li class="check"><span class="fa fa-check-circle"></span>LED Monitor at the façade of the building</li>
+                                        <li class="check"><span class="fa fa-check-circle"></span>Helipad</li>
+                                        <li class="check"><span class="fa fa-check-circle"></span>24/7 security</li>
+                                        <li class="check"><span class="fa fa-check-circle"></span>Storage Area</li>
+                                        <li class="check"><span class="fa fa-check-circle"></span>Offices</li>
+                                        <li class="check"><span class="fa fa-check-circle"></span>Commercial</li>
 									</ul>
 								</div>
 							</div>
 						</div>
 						<div class="tab-pane fade" id="description" role="tabpanel" aria-labelledby="profile-tab">
 							<p>
-								Locally owned by Premiumlands Corp., it is standing
-								in a strategic boundary of a booming business and
-								commercial district of Makati City. The property is
-								conveniently accessible through access points from
-								Manila to Makati.
+								Based in Makati City, PMI Tower is a 24-storey
+                                mixed-use building which will also serve as
+                                the head office of the company.
 							</p>
 							<p>
-								The property is conveniently accessible through
-								access points from Manila to Makati. Its proximity
-								allows employees to move around the metro
-								within minutes and easily access the prime
-								business districts of Makati City.
+								Locally owned by Premiumlands Corp., it is a
+                                commercial building with office and retail
+                                spaces. Building amenities include Gymnasium,
+                                Auditorium, Basketball Court, and Food Courts
 							</p>
 						</div>
                         <div class="tab-pane fade" id="loc" role="tabpanel" aria-labelledby="loc-tab">
@@ -163,11 +179,11 @@ img{
 									text-align: right;
 									height: 350px;
 								/* width: 50vw; */
-                                    margin-top:2rem;
+                                margin-top:-.7rem;
                                     display: flex;
                                     justify-content: center;
                                     align-items: center;
-                                
+
 								}
 							</style><a href="https://www.embedgooglemap.net">google map embed responsive</a>
 							<style>

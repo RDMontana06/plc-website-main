@@ -140,7 +140,6 @@
 								Based in Makati City, PMI Tower is a 24-storey
 								mixed-use building which will also serve as
 								the head office of the company.
-
 							</p>
 							<p>
 								Locally owned by Premiumlands Corp., it is a

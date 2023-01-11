@@ -167,9 +167,9 @@
 		        					<li><span class="flaticon-bathtub"></span>2</li>
 		        					<li><span class="flaticon-floor-plan"></span>1,878 sqft</li>
 		        				</ul> --}}
-									<h3><a href="#">PMI Tower</a></h3>
+									<h3><a href="{{ url('pmi_tower') }}">PMI Tower</a></h3>
 									<span class="location">Cabanillas corner. 273 Pablo Ocampo Sr. Ext. Makati City, Philippines</span>
-									<a href="#" class="d-flex align-items-center justify-content-center btn-custom">
+									<a href="{{ url('pmi_tower') }}" class="d-flex align-items-center justify-content-center btn-custom">
 										<span class="fa fa-link"></span>
 									</a>
 									{{-- <div class="list-team d-flex align-items-center mt-2 pt-2 border-top">
@@ -196,9 +196,9 @@
 		        					<li><span class="flaticon-bathtub"></span>2</li>
 		        					<li><span class="flaticon-floor-plan"></span>1,878 sqft</li>
 		        				</ul> --}}
-									<h3><a href="#">Market Mall</a></h3>
+									<h3><a href="{{ url('market_mall') }}">Market Mall</a></h3>
 									<span class="location">Real St. District 6, <br> Ormoc City, Philippines</span>
-									<a href="#" class="d-flex align-items-center justify-content-center btn-custom">
+									<a href="{{ url('market_mall') }}" class="d-flex align-items-center justify-content-center btn-custom">
 										<span class="fa fa-link"></span>
 									</a>
 									{{-- <div class="list-team d-flex align-items-center mt-2 pt-2 border-top">
@@ -227,7 +227,7 @@
 		        				</ul> --}}
 									<h3><a href="#">The Mondrian</a></h3>
 									<span class="location">1423 Pablo Ocampo Sr. Ext. San Antonio Village, Makati City, Philippines</span>
-									<a href="#" class="d-flex align-items-center justify-content-center btn-custom">
+									<a href="{{ url('mondrian') }}" class="d-flex align-items-center justify-content-center btn-custom">
 										<span class="fa fa-link"></span>
 									</a>
 									{{-- <div class="list-team d-flex align-items-center mt-2 pt-2 border-top">
@@ -309,52 +309,91 @@
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-md-12 text-center heading-section heading-section-white ftco-animate">
-					<span class="subheading">Work flow</span>
-					<h2 class="mb-3">How it works</h2>
+					<span class="subheading">Property Management Lease Process Flow</span>
+					<h2 class="mb-3">Tenant Cycle</h2>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-3 d-flex align-self-stretch ftco-animate">
+				<div class="col-md-4 ftco-animate">
 					<div class="media block-6 services services-2">
 						<div class="media-body py-md-4 text-center">
-							<div class="icon mb-1 d-flex align-items-center justify-content-center"><span>01</span>
+							<div class="icon mb-1 d-flex align-items-center justify-content-center"><span class="text-dark">01</span>
 								<img src="images/blob.svg" alt="">
 							</div>
-							<h3>Evaluate Property</h3>
-							<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+							<h3>Lead Generation</h3>
+								<p>Property listing</p>
+								<p>Client inquiry/ client acquisition/ Prospecting</p>
+								<p>Lease Proposal</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-3 d-flex align-self-stretch ftco-animate">
+				<div class="col-md-4 ftco-animate">
 					<div class="media block-6 services services-2">
 						<div class="media-body py-md-4 text-center">
-							<div class="icon mb-1 d-flex align-items-center justify-content-center"><span>02</span>
+							<div class="icon mb-1 d-flex align-items-center justify-content-center"><span class="text-dark">02</span>
 								<img src="images/blob.svg" alt="">
 							</div>
-							<h3>Meet Your Agent</h3>
-							<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+							<h3>Application/Negotiation</h3>
+								<p>Keep the prospect engaged</p>
+								<p>Site Visit/ Property Viewing</p>
+								<p>Final Lease Offer</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-3 d-flex align-self-stretch ftco-animate">
+				<div class="col-md-4 ftco-animate">
 					<div class="media block-6 services services-2">
 						<div class="media-body py-md-4 text-center">
-							<div class="icon mb-1 d-flex align-items-center justify-content-center"><span>03</span>
+							<div class="icon mb-1 d-flex align-items-center justify-content-center"><span class="text-dark">03</span>
 								<img src="images/blob.svg" alt="">
 							</div>
-							<h3>Close the Deal</h3>
-							<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+							<h3>Documentation</h3>
+								<p>Prepare Documentation</p>
+								<p>Contract Signing</p>
+								<p>Collect security deposits & advances</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-3 d-flex align-self-stretch ftco-animate">
+			</div>
+			<div class="row">
+				<div class="col-md-4 ftco-animate">
 					<div class="media block-6 services services-2">
 						<div class="media-body py-md-4 text-center">
-							<div class="icon mb-1 d-flex align-items-center justify-content-center"><span>04</span>
+							<div class="icon mb-1 d-flex align-items-center justify-content-center"><span class="text-dark">04</span>
 								<img src="images/blob.svg" alt="">
 							</div>
-							<h3>Have Your Property</h3>
-							<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+							<h3>Operation Effeciency</h3>
+								<p>Move – in Documents</p>
+								<p>Conduct Pre fit – out inspection</p>
+								<p>Service maintenance request</p>
+								<p>Design Approval</p>
+								<p>Manage Facilities</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 ftco-animate">
+					<div class="media block-6 services services-2">
+						<div class="media-body py-md-4 text-center">
+							<div class="icon mb-1 d-flex align-items-center justify-content-center"><span class="text-dark">05</span>
+								<img src="images/blob.svg" alt="">
+							</div>
+							<h3>Lease End</h3>
+								<p>Lease end Notice</p>
+								<p>Pre - Move - out Inspection</p>
+								<p>Calculate Final Payment</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 ftco-animate">
+					<div class="media block-6 services services-2">
+						<div class="media-body py-md-4 text-center">
+							<div class="icon mb-1 d-flex align-items-center justify-content-center"><span class="text-dark">06</span>
+								<img src="images/blob.svg" alt="">
+							</div>
+							<h3>Turnover / Ingress</h3>
+								<p>Schedule Turn-over Work</p>
+								<p>Perform Fit – out</p>
+								<p>Inspect property</p>
+								<p>Opening day</p>
 						</div>
 					</div>
 				</div>
@@ -386,7 +425,7 @@
 		</div>
 	</section>
 
-	<section class="ftco-counter img" id="section-counter">
+	{{-- <section class="ftco-counter img" id="section-counter">
 		<div class="container">
 			<div class="row pt-md-5">
 				<div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
@@ -423,7 +462,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> --}}
 
 	{{-- <section class="ftco-section testimony-section bg-light">
 		<div class="container">

@@ -1,27 +1,22 @@
 @extends('layout.main')
 @section('content')
-<link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
-<link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
-    />
-    <style>
-img{
-    cursor: pointer;
-}
-.check{
-    white-space: nowrap;
-}
-.swiper-button-prev,
-.swiper-button-next {
-  background: rgba(0,0,0,0.2);
-  width: 45px;
-  height: 45px;
-  line-height: 53px;
-  margin-top: -30px;
-  text-align: center;
-  border: 2px solid #fff;
-  box-shadow: 0px 0px 1px 2px rgba(0,0,0,0.1);
+	<link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+	<style>
+		img {
+			cursor: pointer;
+		}
+
+		.swiper-button-prev,
+		.swiper-button-next {
+			background: rgba(0, 0, 0, 0.2);
+			width: 45px;
+			height: 45px;
+			line-height: 53px;
+			margin-top: -30px;
+			text-align: center;
+			border: 2px solid #fff;
+			box-shadow: 0px 0px 1px 2px rgba(0, 0, 0, 0.1);
 
 			border-radius: 55px;
 			opacity: 0;
@@ -58,7 +53,6 @@ img{
 				<div class="col-md-9 ftco-animate pb-0 text-center">
 					<p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="fa fa-chevron-right"></i></a></span>
 						<span class="mr-2"><a href="{{ url('properties') }}">Properties <i class="fa fa-chevron-right"></i></a></span>
-
 						<span>Market Mall<i class="fa fa-chevron-right"></i></span>
 					</p>
 					<h1 class="mb-3 bread">Market Mall Details</h1>
@@ -72,8 +66,7 @@ img{
 				<div class="col-md-6">
 					<div class="property-details">
 						<div class="text">
-							<span class="subheading">Real St. District 6, <br> Ormoc City, Philippines</span>
-
+							<span class="subheading">Real St, Ormoc, 6541 Leyte, Philippines</span>
 							<h2>Market Mall</h2>
 						</div>
 						<div class="swiper mySwiper">
@@ -159,24 +152,25 @@ img{
 								hotel with basement, function room, and
 								penthouse with infinity pool.
 							</p>
-
 						</div>
-                        <div class="tab-pane fade" id="loc" role="tabpanel" aria-labelledby="loc-tab">
-                    	<div class="d-block w-100">
-					<div class="mapouter">
-                        <div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.4142349406907!2d124.6066425461804!3d11.007514945930925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3307f194117cfc37%3A0xa33c5b4d885e8a94!2sMarket%20Mall!5e0!3m2!1sen!2sph!4v1673337159390!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>" frameborder="0"
-                            scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://2piratebay.org"></a><br>
-                        <style>
-                            .mapouter {
-                                position: relative;
-                                text-align: right;
-                                height: 350px;
-                            /* width: 50vw; */
-                            margin-top:-.7rem;
-                                display: flex;
-                                justify-content: center;
-                                align-items: center;
+						<div class="tab-pane fade" id="loc" role="tabpanel" aria-labelledby="loc-tab">
+							<div class="d-block w-100">
+								<div class="mapouter">
+									<div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas"
+											src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.4142349406907!2d124.6066425461804!3d11.007514945930925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3307f194117cfc37%3A0xa33c5b4d885e8a94!2sMarket%20Mall!5e0!3m2!1sen!2sph!4v1673337159390!5m2!1sen!2sph"
+											width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+											referrerpolicy="no-referrer-when-downgrade"></iframe>" frameborder="0"
+										scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://2piratebay.org"></a><br>
+										<style>
+											.mapouter {
+												position: relative;
+												text-align: right;
+												height: 350px;
+												/* width: 50vw; */
+												/* margin-top: 2rem; */
+												display: flex;
+												justify-content: center;
+												align-items: center;
 
 											}
 										</style><a href="https://www.embedgooglemap.net">google map embed responsive</a>

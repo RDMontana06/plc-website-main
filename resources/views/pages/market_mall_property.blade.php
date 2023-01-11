@@ -164,7 +164,7 @@
 												text-align: right;
 												height: 350px;
 												/* width: 50vw; */
-												margin-top: 2rem;
+												/* margin-top: 2rem; */
 												display: flex;
 												justify-content: center;
 												align-items: center;

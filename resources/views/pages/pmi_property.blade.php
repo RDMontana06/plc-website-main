@@ -1,14 +1,11 @@
 @extends('layout.main')
 @section('content')
-<link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
-<link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
-    />
-    <style>
-img{
-    cursor: pointer;
-}
+	<link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+	<style>
+		img {
+			cursor: pointer;
+		}
 
 /* .check{
     white-space: nowrap;
@@ -24,29 +21,32 @@ img{
   border: 2px solid #fff;
   box-shadow: 0px 0px 1px 2px rgba(0,0,0,0.1);
 
-  border-radius: 55px;
-  opacity:0;
-  visibility:hidden;
-  transition:all .3s ease;
+			border-radius: 55px;
+			opacity: 0;
+			visibility: hidden;
+			transition: all .3s ease;
 
-}
-.swiper-button-prev:after, .swiper-button-next:after{
-    color: #fff;
-  font-size: 18px;
-  text-shadow: 0px 1px 0px rgba(0,0,0,0.1);
-}
+		}
 
-.swiper-pagination-bullet{
-    background-color: #fff;
-    transform:scale(1.8);
-}
-.swiper:hover .swiper-button-prev,
-.swiper:hover .swiper-button-next {
-  transform:translateX(0);
-  opacity:1;
-  visibility:visible;
-}
-    </style>
+		.swiper-button-prev:after,
+		.swiper-button-next:after {
+			color: #fff;
+			font-size: 18px;
+			text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+		}
+
+		.swiper-pagination-bullet {
+			background-color: #fff;
+			transform: scale(1.8);
+		}
+
+		.swiper:hover .swiper-button-prev,
+		.swiper:hover .swiper-button-next {
+			transform: translateX(0);
+			opacity: 1;
+			visibility: visible;
+		}
+	</style>
 
 	<section class="hero-wrap hero-wrap-2" style="background-image: url('assets/img/properties/mondrian-2.jpg');"
 		data-stellar-background-ratio="0.5">
@@ -73,30 +73,30 @@ img{
 							<span class="subheading">Cabanillas corner. 273 Pablo Ocampo Sr. Ext. Makati City, Philippines</span>
 							<h2>PMI Tower</h2>
 						</div>
-						<div  class="swiper mySwiper" >
+						<div class="swiper mySwiper">
 							<div class="swiper-wrapper">
 								<div class="swiper-slide active">
-									<img src="{{ asset('assets/img/properties/pmi-tower/01.jpg') }}" class="d-block w-100 h-100" alt="...">
+									<img src="{{ asset('assets/img/properties/pmi/01.jpg') }}" class="d-block w-100 h-100" alt="...">
 								</div>
 								<div class="swiper-slide">
-									<img src="{{ asset('assets/img/properties/pmi-tower/02.jpg') }}" class="d-block w-100 h-100" alt="...">
+									<img src="{{ asset('assets/img/properties/pmi/02.jpg') }}" class="d-block w-100 h-100" alt="...">
 								</div>
 								<div class="swiper-slide">
-									<img src="{{ asset('assets/img/properties/pmi-tower/03.jpg') }}" class="d-block w-100 h-100" alt="...">
+									<img src="{{ asset('assets/img/properties/pmi/03.jpg') }}" class="d-block w-100 h-100" alt="...">
 								</div>
 								<div class="swiper-slide">
-									<img src="{{ asset('assets/img/properties/pmi-tower/04.jpg') }}" class="d-block w-100 h-100" alt="...">
+									<img src="{{ asset('assets/img/properties/pmi/04.jpg') }}" class="d-block w-100 h-100" alt="...">
 								</div>
 								<div class="swiper-slide">
-									<img src="{{ asset('assets/img/properties/pmi-tower/05.jpg') }}" class="d-block w-100 h-100" alt="...">
+									<img src="{{ asset('assets/img/properties/pmi/05.jpg') }}" class="d-block w-100 h-100" alt="...">
 								</div>
 								<div class="swiper-slide">
-									<img src="{{ asset('assets/img/properties/pmi-tower/06.jpg') }}" class="d-block w-100 h-100" alt="...">
+									<img src="{{ asset('assets/img/properties/pmi/06.jpg') }}" class="d-block w-100 h-100" alt="...">
 								</div>
 							</div>
-                            <div class="swiper-button-next"></div>
-                             <div class="swiper-button-prev"></div>
-                             <div class="swiper-pagination"></div>
+							<div class="swiper-button-next"></div>
+							<div class="swiper-button-prev"></div>
+							<div class="swiper-pagination"></div>
 						</div>
 						{{-- <div class="img" style="background-image: url(assets/img/properties/mondrian-2.jpg);"> --}}
 						{{-- <a href="https://vimeo.com/45830194" class="img-video popup-vimeo d-flex align-items-center justify-content-center">
@@ -116,9 +116,9 @@ img{
 							<a class="nav-link" id="profile-tab" data-bs-toggle="pill" data-bs-target="#description" type="button"
 								role="tab" aria-controls="description" aria-selected="false">Description</a>
 						</li>
-                        <li class="nav-item" role="presentation">
-							<a class="nav-link" id="loc-tab" data-bs-toggle="pill" data-bs-target="#loc" type="button"
-								role="tab" aria-controls="description" aria-selected="false">Location</a>
+						<li class="nav-item" role="presentation">
+							<a class="nav-link" id="loc-tab" data-bs-toggle="pill" data-bs-target="#loc" type="button" role="tab"
+								aria-controls="description" aria-selected="false">Location</a>
 						</li>
 					</ul>
 					<div class="tab-content" id="myTabContent">
@@ -220,44 +220,40 @@ img{
 							</style>
 						</div>
 					</div>
-				</div>
+					<div class="row justify-content-center">
+						<div class="d-block w-100">
 
+						</div>
 					</div>
 				</div>
-                <div class="row justify-content-center">
-				<div class="d-block w-100">
 
-				</div>
 			</div>
-			</div>
-
-		</div>
 	</section>
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
 
-<!-- Initialize Swiper -->
-<script>
-  var swiper = new Swiper(".mySwiper", {
-   // cssMode: true,
-    loop: true,
-    speed: 1000,
-    parallax: true,
-    autoplay: {
-            delay: 6500,
-            disableOnInteraction: false,
-        },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-      dynamicBullets: true,
-    },
-   // mousewheel: true,
-    keyboard: true,
-  });
-</script>
+	<!-- Initialize Swiper -->
+	<script>
+		var swiper = new Swiper(".mySwiper", {
+			// cssMode: true,
+			loop: true,
+			speed: 1000,
+			parallax: true,
+			autoplay: {
+				delay: 6500,
+				disableOnInteraction: false,
+			},
+			navigation: {
+				nextEl: ".swiper-button-next",
+				prevEl: ".swiper-button-prev",
+			},
+			pagination: {
+				el: ".swiper-pagination",
+				clickable: true,
+				dynamicBullets: true,
+			},
+			// mousewheel: true,
+			keyboard: true,
+		});
+	</script>
 @endsection

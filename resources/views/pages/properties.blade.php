@@ -82,7 +82,7 @@
 					<div class="carousel-properties owl-carousel">
 						<div class="item">
 							<div class="property-wrap ftco-animate">
-								<a href="#" class="img" style="background-image: url(images/properties/PMI_Lobby.jpg);">
+								<a href="{{ url('pmi_tower') }}" class="img" style="background-image: url(images/properties/PMI_Lobby.jpg);">
 									<div class="rent-sale">
 										<span class="rent">Rent</span>
 									</div>
@@ -94,7 +94,7 @@
 		        					<li><span class="flaticon-bathtub"></span>2</li>
 		        					<li><span class="flaticon-floor-plan"></span>1,878 sqft</li>
 		        				</ul> --}}
-									<h3><a href="#">PMI Tower</a></h3>
+									<h3><a href="{{ url('pmi_tower') }}">PMI Tower</a></h3>
 									<span class="location">Cabanillas corner. 273 Pablo Ocampo Sr. Ext. Makati City, Philippines</span>
 									<a href="{{ url('pmi_tower') }}" class="d-flex align-items-center justify-content-center btn-custom">
 										<span class="fa fa-link"></span>
@@ -111,7 +111,7 @@
 						</div>
 						<div class="item">
 							<div class="property-wrap ftco-animate">
-								<a href="#" class="img" style="background-image: url(images/properties/MarketMall_Resto.jpg);">
+								<a href="{{ url('market_mall') }}" class="img" style="background-image: url(images/properties/MarketMall_Resto.jpg);">
 									<div class="rent-sale">
 										<span class="rent">Rent</span>
 									</div>
@@ -123,7 +123,7 @@
 		        					<li><span class="flaticon-bathtub"></span>2</li>
 		        					<li><span class="flaticon-floor-plan"></span>1,878 sqft</li>
 		        				</ul> --}}
-									<h3><a href="#">Market Mall</a></h3>
+									<h3><a href="{{ url('market_mall') }}">Market Mall</a></h3>
 									<span class="location">Real St. District 6, <br> Ormoc City, Philippines</span>
 									<a href="{{ url('market_mall') }}" class="d-flex align-items-center justify-content-center btn-custom">
 										<span class="fa fa-link"></span>
@@ -134,7 +134,7 @@
 						</div>
 						<div class="item">
 							<div class="property-wrap ftco-animate">
-								<a href="#" class="img" style="background-image: url(images/properties/mondrian_bistro.jpg);">
+								<a href="{{ url('mondrian') }}" class="img" style="background-image: url(images/properties/mondrian_bistro.jpg);">
 									<div class="rent-sale">
 										<span class="rent">Rent</span>
 									</div>
@@ -146,7 +146,7 @@
 		        					<li><span class="flaticon-bathtub"></span>2</li>
 		        					<li><span class="flaticon-floor-plan"></span>1,878 sqft</li>
 		        				</ul> --}}
-									<h3><a href="#">The Mondrian</a></h3>
+									<h3><a href="{{ url('mondrian') }}">The Mondrian</a></h3>
 									<span class="location">1423 Pablo Ocampo Sr. Ext. San Antonio Village, Makati City, Philippines</span>
 									<a href="{{ url('mondrian') }}" class="d-flex align-items-center justify-content-center btn-custom">
 										<span class="fa fa-link"></span>

@@ -50,7 +50,8 @@ img{
 		}
 	</style>
 
-	<section class="hero-wrap hero-wrap-2" style="background-image: url('assets/img/properties/mondrian-2.jpg');"
+	<section class="hero-wrap hero-wrap-2" 
+	style="background-image: url('assets/img/properties/mondrian-2.jpg');"
 		data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
@@ -127,8 +128,8 @@ img{
 								aria-controls="description" aria-selected="false">Location</a>
 						</li>
 					</ul>
-					{{-- <div class="tab-content" id="myTabContent">
-						<div class="tab-pane fade show active" id="features" role="tabpanel" aria-labelledby="features-tab">
+					 <div class="tab-content" id="myTabContent">
+						{{-- <div class="tab-pane fade show active" id="features" role="tabpanel" aria-labelledby="features-tab">
 							<div class="row">
 								<div class="col-md-4">
 									<ul class="features">
@@ -161,7 +162,7 @@ img{
 							</p>
 
 						</div>
-                        <div class="tab-pane fade" id="loc" role="tabpanel" aria-labelledby="loc-tab">
+                 <div class="tab-pane fade" id="loc" role="tabpanel" aria-labelledby="loc-tab">
                     	<div class="d-block w-100">
 					<div class="mapouter">
                         <div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas"
@@ -232,7 +233,7 @@ img{
 				clickable: true,
 				dynamicBullets: true,
 			},
-			// mousewheel: true,
+			 mousewheel: true,
 			keyboard: true,
 		});
 	</script>

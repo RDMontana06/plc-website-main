@@ -52,8 +52,8 @@
             	<div class="block-23 mb-3">
 	              <ul>
 	                <li><span class="icon fa fa-map"></span><span class="text">12th PMI Tower Cabanillas Cor. Pablo Ocampo Ext. Makati City</span></li>
-	                <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-	                <li><a href="#"><span class="icon fa fa-envelope pr-4"></span><span class="text">info@premiumlands.com</span></a></li>
+	                <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+63 917 628 5571</span></a></li>
+	                <li><a href="#"><span class="icon fa fa-envelope pr-4"></span><span class="text">info@premiumlandscorp.com</span></a></li>
 	              </ul>
 	            </div>
             </div>
@@ -70,7 +70,7 @@
   
 
   <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#08384f"/></svg></div>
 
 
   <script src="{{ asset('js/jquery.min.js') }}"></script>

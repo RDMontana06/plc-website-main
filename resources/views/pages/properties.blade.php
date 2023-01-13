@@ -82,7 +82,7 @@
 					<div class="carousel-properties owl-carousel">
 						<div class="item">
 							<div class="property-wrap ftco-animate">
-								<a href="#" class="img" style="background-image: url(images/properties/PMI_Lobby.jpg);">
+								<a href="{{ url('pmi_tower') }}" class="img" style="background-image: url(images/properties/PMI_Lobby.jpg);">
 									<div class="rent-sale">
 										<span class="rent">Rent</span>
 									</div>
@@ -111,7 +111,7 @@
 						</div>
 						<div class="item">
 							<div class="property-wrap ftco-animate">
-								<a href="#" class="img" style="background-image: url(images/properties/MarketMall_Resto.jpg);">
+								<a href="{{ url('market_mall') }}" class="img" style="background-image: url(images/properties/MarketMall_Resto.jpg);">
 									<div class="rent-sale">
 										<span class="rent">Rent</span>
 									</div>
@@ -134,7 +134,7 @@
 						</div>
 						<div class="item">
 							<div class="property-wrap ftco-animate">
-								<a href="#" class="img" style="background-image: url(images/properties/mondrian_bistro.jpg);">
+								<a href="{{ url('mondrian') }}" class="img" style="background-image: url(images/properties/mondrian_bistro.jpg);">
 									<div class="rent-sale">
 										<span class="rent">Rent</span>
 									</div>

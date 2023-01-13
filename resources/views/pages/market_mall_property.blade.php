@@ -45,7 +45,8 @@
 		}
 	</style>
 
-	<section class="hero-wrap hero-wrap-2" style="background-image: url('assets/img/properties/mondrian-2.jpg');"
+	<section class="hero-wrap hero-wrap-2" 
+	style="background-image: url('assets/img/properties/mondrian-2.jpg');"
 		data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
@@ -120,7 +121,9 @@
 								aria-controls="location" aria-selected="false">Location</a>
 						</li>
 					</ul>
-					<div class="tab-content" id="myTabContent">
+
+					 <div class="tab-content" id="myTabContent">
+
 						{{-- <div class="tab-pane fade show active" id="features" role="tabpanel" aria-labelledby="features-tab">
 							<div class="row">
 								<div class="col-md-4">
@@ -153,25 +156,22 @@
 								penthouse with infinity pool.
 							</p>
 						</div>
-						<div class="tab-pane fade" id="loc" role="tabpanel" aria-labelledby="loc-tab">
-							<div class="d-block w-100">
-								<div class="mapouter">
-									<div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas"
-											src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.4142349406907!2d124.6066425461804!3d11.007514945930925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3307f194117cfc37%3A0xa33c5b4d885e8a94!2sMarket%20Mall!5e0!3m2!1sen!2sph!4v1673337159390!5m2!1sen!2sph"
-											width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-											referrerpolicy="no-referrer-when-downgrade"></iframe>" frameborder="0"
-										scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://2piratebay.org"></a><br>
-										<style>
-											.mapouter {
-												position: relative;
-												text-align: right;
-												height: 350px;
-												/* width: 50vw; */
-												/* margin-top: 2rem; */
-												display: flex;
-												justify-content: center;
-												align-items: center;
-
+                 <div class="tab-pane fade" id="loc" role="tabpanel" aria-labelledby="loc-tab">
+                    	<div class="d-block w-100">
+					<div class="mapouter">
+                        <div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.4142349406907!2d124.6066425461804!3d11.007514945930925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3307f194117cfc37%3A0xa33c5b4d885e8a94!2sMarket%20Mall!5e0!3m2!1sen!2sph!4v1673337159390!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>" frameborder="0"
+                            scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://2piratebay.org"></a><br>
+                        <style>
+                            .mapouter {
+                                position: relative;
+                                text-align: right;
+                                height: 350px;
+                            /* width: 50vw; */
+                            margin-top:-.7rem;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
 											}
 										</style><a href="https://www.embedgooglemap.net">google map embed responsive</a>
 										<style>
@@ -226,7 +226,7 @@
 				clickable: true,
 				dynamicBullets: true,
 			},
-			// mousewheel: true,
+			 mousewheel: true,
 			keyboard: true,
 		});
 	</script>

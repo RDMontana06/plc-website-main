@@ -16,8 +16,6 @@
 	width: 100vw;
 }
 
-
-
 .slider-container::after {
 	background-color: #000;
 	content: '';
@@ -39,7 +37,7 @@
 	opacity: 0;
 	height:100vh;
 	width:100vw;
-	transform: scale(1);
+	transform: scale(1.25);
 	transition: opacity 1s ease;
 	}
 	
@@ -50,7 +48,7 @@
 
 @keyframes grow {
 	0%, 20% {
-		transform: scale(1);
+		transform: scale(1.15);
 	}
 	
 	75%, 100% {
@@ -60,8 +58,7 @@
 .float{
 	position:absolute;
 	z-index: 3;
-	top:0;
-
+	top:4rem;
 	left:6rem;
 	width:100%;
 	height:100%;
@@ -72,7 +69,21 @@
 	overflow:hidden;
 }
 .tag{
-	display:inline-flex;
+	display:flex;
+	position: relative;
+	top:-2rem;
+}
+@media (max-width: 768px) {
+	.float{
+		margin-left:-2rem;
+	}
+	.tag{
+		margin:auto;
+	}
+	.tag h1{
+	font-size: 40px !important;
+
+	}
 }
 .tag small{
 	font-size:22px;
@@ -87,12 +98,12 @@
 		
 			<div class=" slider-container">
 
-					<div class="slide hero-wrap"  style="background-image: url('assets/img/hero-section/PMI_Tower.jpg');" data-stellar-background-ratio="0.5"></div>
+					<div class="slide hero-wrap"  style="background-image: url('assets/img/hero-section/Homepage-Photo_2_1519x753.jpg');" data-stellar-background-ratio="0.5"></div>
+					<div class="slide hero-wrap"  style="background-image: url('assets/img/hero-section/Homepage-Photo_1_1519x753.jpg');" data-stellar-background-ratio="0.5"></div>
+					<div class="slide hero-wrap"  style="background-image: url('assets/img/hero-section/Homepage-Photo_3_1519x753.jpg');" data-stellar-background-ratio="0.5"></div>
+					<div class="slide hero-wrap"  style="background-image: url('assets/img/hero-section/Homepage-Photo_4_1519x753.jpg');" data-stellar-background-ratio="0.5"></div>
 					
-					<div class="slide hero-wrap" style="background-image: url('https://images.unsplash.com/photo-1453928582365-b6ad33cbcf64?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80')"  data-stellar-background-ratio="0.5"></div>
-			
-					<div class="slide hero-wrap" style="background-image: url('https://images.unsplash.com/photo-1504707748692-419802cf939d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1330&q=80')"  data-stellar-background-ratio="0.5"></div>
-					
+				
 			</div>
 	
 			<div class="float">

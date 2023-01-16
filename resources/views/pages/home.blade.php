@@ -22,6 +22,23 @@
 		.search-bg{
 			z-index: 2;
 		}
+		.mobile{
+				display:none;
+			}
+			.desktop{
+				
+			}
+		@media (max-width:768px){
+			.mobile{
+				display: flex;
+			}
+			.col-md-5.wrap-about.py-md-5.ftco-animate.desktop{
+				height:0px;
+				opacity: 0;
+				display:none;
+			}
+
+		}
     </style>
 	<section class="ftco-section ftco-no-pb ftco-no-pt search-bg">
 		<div class="container">
@@ -321,12 +338,9 @@
 		</div>
 	</section>
 	<section class="ftco-section ftco-no-pb ftco-no-pt about">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-7 order-md-last d-flex align-items-stretch">
-					<div class="img w-100 img-2 mr-md-2" style="background-image: url(images/about-1.jpg);"></div>
-					<div class="img w-100 img-2 ml-md-2" style="background-image: url(images/about-2.1.jpg);"></div>
-				</div>
+	<div class="container">
+		<div class="row">
+			<div class="mobile">
 				<div class="col-md-5 wrap-about py-md-5 ftco-animate">
 					<div class="heading-section pr-md-5">
 						<h3 class="mb-4 font-weight-bold">Premiumlands Corporation</h3>
@@ -341,6 +355,27 @@
 					</div>
 				</div>
 			</div>
+				<div class="col-md-7 order-md-last d-flex align-items-stretch">
+					<div class="img w-100 img-2 mr-md-2" style="background-image: url(images/about-1.jpg);"></div>
+					<div class="img w-100 img-2 ml-md-2" style="background-image: url(images/about-2.1.jpg);"></div>
+				</div>
+	
+			<div class="col-md-5 wrap-about py-md-5 ftco-animate desktop">
+					<div class="heading-section pr-md-5">
+						<h3 class="mb-4 font-weight-bold">Premiumlands Corporation</h3>
+
+						<p>Established on 2012, Premiumlands Corp. is the real-estate-arm of Premium
+							Megastructures, Inc. A construction company that is certified as “Quadruple A” by the
+							Philippine Contractor's Accreditation Board (PCAB). </p>
+						<p>We belong to a powerhouse of
+							construction company with a wide variety of businesses across Luzon, Visayas, and
+							Mindanao. The company recently engaged in land banking and we will soon launch prime
+							real-estate developments across the archipelago to target the mid and high-end market.</p>
+					</div>
+				</div>
+			
+			
+		</div>
 		</div>
 	</section>
 

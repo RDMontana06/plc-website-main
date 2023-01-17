@@ -137,18 +137,10 @@ img{
 						</div>
 						<div class="tab-pane fade" id="description" role="tabpanel" aria-labelledby="profile-tab">
 							<p>
-								Locally owned by Premiumlands Corp., it is standing
-								in a strategic boundary of a booming business and
-								commercial district of Makati City. The property is
-								conveniently accessible through access points from
-								Manila to Makati.
+							Locally owned by Premiumlands Corp., it is strategically located on the edge of the booming business and commercial district of Makati in a commuter-friendly location.
 							</p>
 							<p>
-								The property is conveniently accessible through
-								access points from Manila to Makati. Its proximity
-								allows employees to move around the metro
-								within minutes and easily access the prime
-								business districts of Makati City.
+							The property is conveniently accessible through access points from nearby cities and provinces. Its proximity allows employees to move around the metro within minutes and easily access the prime business districts of Makati, Manila, and Pasay.
 							</p>
 						</div>
                   <div class="tab-pane fade" id="loc" role="tabpanel" aria-labelledby="loc-tab">

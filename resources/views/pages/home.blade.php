@@ -39,6 +39,10 @@
 			}
 
 		}
+		.blob{
+			height:80px;
+			margin:auto;
+		}
     </style>
 	<section class="ftco-section ftco-no-pb ftco-no-pt search-bg">
 		<div class="container">
@@ -392,7 +396,7 @@
 					<div class="media block-6 services services-2">
 						<div class="media-body py-md-4 text-center">
 							<div class="icon mb-1 d-flex align-items-center justify-content-center"><span class="text-dark">01</span>
-								<img src="images/circle-blob.svg" alt="">
+								<img class="blob" src="images/circle-blob.svg" alt="">
 							</div>
 							<h3>Lead Generation</h3>
 								<p>Property listing</p>
@@ -405,7 +409,7 @@
 					<div class="media block-6 services services-2">
 						<div class="media-body py-md-4 text-center">
 							<div class="icon mb-1 d-flex align-items-center justify-content-center"><span class="text-dark">02</span>
-								<img src="images/circle-blob.svg" alt="">
+								<img class="blob" src="images/circle-blob.svg" alt="">
 							</div>
 							<h3>Application/Negotiation</h3>
 								<p>Keep the prospect engaged</p>
@@ -418,7 +422,7 @@
 					<div class="media block-6 services services-2">
 						<div class="media-body py-md-4 text-center">
 							<div class="icon mb-1 d-flex align-items-center justify-content-center"><span class="text-dark">03</span>
-								<img src="images/circle-blob.svg" alt="">
+								<img class="blob" src="images/circle-blob.svg" alt="">
 							</div>
 							<h3>Documentation</h3>
 								<p>Prepare Documentation</p>
@@ -433,7 +437,7 @@
 					<div class="media block-6 services services-2">
 						<div class="media-body py-md-4 text-center">
 							<div class="icon mb-1 d-flex align-items-center justify-content-center"><span class="text-dark">04</span>
-								<img src="images/circle-blob.svg" alt="">
+								<img class="blob" src="images/circle-blob.svg" alt="">
 							</div>
 							<h3>Operation Effeciency</h3>
 								<p>Move – in Documents</p>
@@ -448,7 +452,7 @@
 					<div class="media block-6 services services-2">
 						<div class="media-body py-md-4 text-center">
 							<div class="icon mb-1 d-flex align-items-center justify-content-center"><span class="text-dark">05</span>
-								<img src="images/circle-blob.svg" alt="">
+								<img class="blob" src="images/circle-blob.svg" alt="">
 							</div>
 							<h3>Lease End</h3>
 								<p>Lease end Notice</p>
@@ -461,7 +465,7 @@
 					<div class="media block-6 services services-2">
 						<div class="media-body py-md-4 text-center">
 							<div class="icon mb-1 d-flex align-items-center justify-content-center"><span class="text-dark">06</span>
-								<img src="images/circle-blob.svg" alt="">
+								<img class="blob" src="images/circle-blob.svg" alt="">
 							</div>
 							<h3>Turnover / Ingress</h3>
 								<p>Schedule Turn-over Work</p>

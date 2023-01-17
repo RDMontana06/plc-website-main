@@ -25,7 +25,7 @@
 						<h3 class="mb-4 font-weight-bold">Premiumlands Corporation</h3>
 
 						<p style="text-align:justify">Established on 2012, Premiumlands Corp. is the real-estate-arm of Premium
-							Megastructures, Inc. A construction company that is certified as “Quadruple A” by the
+						Capital Holdings, Inc. A construction company that is certified as “Quadruple A” by the
 							Philippine Contractor's Accreditation Board (PCAB). </p>
 						<p style="text-align:justify">We belong to a powerhouse of
 							construction company with a wide variety of businesses across Luzon, Visayas, and

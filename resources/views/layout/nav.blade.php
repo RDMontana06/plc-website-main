@@ -1,16 +1,16 @@
 	<style>
-		nav.navBar{
-			position: relative;
+		nav.navbar{
+			/* position: relative; */
 			z-index: 20;
 		}
 	</style>
 	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-		<div class="container">
+		<div class="container-fluid">
 			<a class="navbar-brand" href="{{ url('/') }}">
 				<img src="{{ asset('images/logo/plc-logo-white.png') }}" width="200" class="img-fluid img-responsive" alt="">
 
 			</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav"
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#ftco-nav" aria-controls="#ftco-nav"
 				aria-expanded="false" aria-label="Toggle navigation">
 				<span class="oi oi-menu"></span> Menu
 			</button>
@@ -30,4 +30,14 @@
 			</div>
 		</div>
 	</nav>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+		<script>
+			
+     var navMain = document.getElementByClassName("navbar-collapse");
+				var nav = document.getElementByClassName("navbar-toggler");
+     nav.on("click", "a", null, function () {
+         navMain.collapse('hide');
+
+ });
+		</script>
 	<!-- END nav -->

@@ -1,6 +1,6 @@
 
 
-<footer class="ftco-footer ftco-section">
+<footer class="ftco-footer ftco-section" style="display:flex;">
   
       <div class="container">
         <div class="row mb-5">
@@ -9,11 +9,11 @@
               <h2 class="ftco-heading-2">
                 <img src="{{ asset('assets/img/plc-logo-white1.png') }}" alt="">
               </h2>
-              <p>Established on 2012, Premiumlands Corp. is the real-estate-arm of <a href="hhttps://premiummegastructures.com/" class="text-white" target="_blank" rel="noopener noreferrer">Premium Megastructures, Inc.</a></p>
+              <p>Established on 2012, Premiumlands Corp. is the real-estate-arm of <a href="https://premiummegastructures.com/" class="text-white" target="_blank" rel="noopener noreferrer">Premium Megastructures, Inc.</a></p>
               <ul class="ftco-footer-social list-unstyled mt-5">
-                <li class="ftco-animate"><a href="#"><span class="fa-brands fa-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="fa-brands fa-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="fa-brands fa-instagram"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.linkedin.com/company/premiumlands-corp"><span class="fa-brands fa-linkedin"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.facebook.com/premiumlandscorp"><span class="fa-brands fa-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.instagram.com/premiumlandscorp/"><span class="fa-brands fa-instagram"></span></a></li>
               </ul>
             </div>
           </div>
@@ -22,9 +22,9 @@
               <h2 class="ftco-heading-2">Community</h2>
               <ul class="list-unstyled">
                 <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Search Properties</a></li>
-                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>For Agents</a></li>
+                <!-- <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>For Agents</a></li>
                 <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Reviews</a></li>
-                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>FAQs</a></li>
+                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>FAQs</a></li> -->
               </ul>
             </div>
           </div>
@@ -32,9 +32,9 @@
             <div class="ftco-footer-widget mb-4 ml-md-4">
               <h2 class="ftco-heading-2">About Us</h2>
               <ul class="list-unstyled">
-                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Our Story</a></li>
-                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Meet the team</a></li>
-                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Careers</a></li>
+                <!-- <li><a href="{{ url('about') }}""><span class="fa fa-chevron-right mr-2"></span>Our Story</a></li>
+                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Meet the team</a></li> -->
+                <li><a href="{{ url('careers') }}"><span class="fa fa-chevron-right mr-2"></span>Careers</a></li>
               </ul>
             </div>
           </div>
@@ -42,10 +42,10 @@
              <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2">Company</h2>
               <ul class="list-unstyled">
-                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>About Us</a></li>
-                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Press</a></li>
-                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Contact</a></li>
-                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Careers</a></li>
+                <li><a href="{{ url('about') }}"><span class="fa fa-chevron-right mr-2"></span>About Us</a></li>
+                <!-- <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Press</a></li> -->
+                <li><a href="{{ url('contact') }}"><span class="fa fa-chevron-right mr-2"></span>Contact</a></li>
+                <li><a href="{{ url('careers') }}"><span class="fa fa-chevron-right mr-2"></span>Careers</a></li>
               </ul>
             </div>
           </div>

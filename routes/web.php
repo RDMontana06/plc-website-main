@@ -1,7 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+  
+use App\Http\Controllers\MailController;
+use App\Http\Controllers\EmailController;
 
+  
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -77,3 +81,16 @@ Route::get('/market_mall', function () {
         )
     );
 });
+Route::get('/careers', 'EmailController@index');
+// Route::get('/careers/send', function() {
+//     $name = "Funny Coder";
+
+// // The email sending is done using the to method on the Mail facade
+//     Mail::to('plcemailsender@gmail.com’')->send(new TesMail($name));
+// })->name('careers/send');
+Route::get('/sendmail', 'MailController@index')->name('sendmail'); 
+
+ Route::post('/careers', [EmailController::class, 'send'])->name('careers'); ;
+// Route::get('/sendmail/sent','MailController@send')->name('sendmail/sent'); ;
+
+// Route::post('careers/send', 'EmailController@send')->name('careers/send'); 

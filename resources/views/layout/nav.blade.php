@@ -19,6 +19,8 @@
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item {{ $header == 'home' ? 'active' : '' }}"><a href="{{ url('/') }}" class="nav-link">Home</a></li>
 					<li class="nav-item {{ $header == 'about' ? 'active' : '' }}"><a href="{{ url('about') }}" class="nav-link">About</a></li>
+					<li class="nav-item {{ $header == 'careers' ? 'active' : '' }}"><a href="{{ url('careers') }}" class="nav-link">Careers</a></li>
+
 					{{-- <li class="nav-item"><a href="#" class="nav-link">Agent</a></li> --}}
 					{{-- <li class="nav-item"><a href="#" class="nav-link">Services</a></li> --}}
 					<li class="nav-item {{ $header == 'properties' ? 'active' : '' }}"><a href="{{ url('properties') }}" class="nav-link">Properties</a></li>

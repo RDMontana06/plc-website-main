@@ -1,5 +1,73 @@
 @extends('layout.main')
 @section('content')
+<style>
+        option{
+            color:#333;
+            cursor: pointer;
+        }
+		.about{
+			padding-top: 5rem;
+			padding-bottom: 5rem;
+		}
+		.lighten, .lighten::before, .lighten::after{
+			color:#fff !important;
+		}
+		.lighten::before, .lighten::after{
+			background-color:#fff !important;
+		}
+		.darken{
+			background-color:#08384f !important;;
+		}
+		.search-bg{
+			z-index: 2;
+		}
+		.mobile{
+				display:none;
+			}
+			.desktop{
+				
+			}
+		@media (max-width:768px){
+			.mobile{
+				display: flex;
+			}
+			.col-md-5.wrap-about.py-md-5.ftco-animate.desktop{
+				height:0px;
+				opacity: 0;
+				display:none;
+			}
+
+		}
+		.blob{
+			height:80px;
+			margin:auto;
+		}
+		.search-bg{
+			z-index: 50;
+		}
+		.floats{
+			position: absolute;
+			background-color:#fff;
+			width:97.5%;
+			display:flex;
+			align-items:center;
+			flex-direction:column;
+			display:none;
+		}
+		.floats.active{
+			display:block;
+		}
+		.floats p{
+			padding: 10px 20px;
+			border-bottom:1px solid #eeee;
+			width:100%;
+			margin:0;
+			cursor:pointer;
+		}
+		.floats p:hover{
+			background-color:#eee;
+		}
+    </style>
 	<section class="hero-wrap hero-wrap-2" style="background-image: url('assets/img/hero-section/PMI_Tower.jpg');"
 		data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
@@ -13,7 +81,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="ftco-section ftco-no-pb ftco-no-pt">
+	<!-- <section class="ftco-section ftco-no-pb ftco-no-pt">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -67,8 +135,166 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
+	<section class="ftco-section ftco-no-pb ftco-no-pt search-bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="search-wrap-1 ftco-animate p-4">
+						<form action="#" class="search-property-1">
+							<div class="row">
+								<div class="col-lg align-items-end">
+									<div class="form-group">
+										<label for="#">Keyword</label>
+										<div class="form-field">
+											<div class="icon"><span class="fa fa-search"></span></div>
+											<input type="text" class="form-control" placeholder="Enter Keyword" id="searchTerm">
+										</div>
+									</div>
+								</div>
+								<div class="col-lg align-items-end">
+									<div class="form-group">
+										<label for="#">Property Type</label>
+										<div class="form-field">
+											<div class="select-wrap">
+												<div class="icon"><span class="fa fa-chevron-down" ></span></div>
+												<select name="" class="form-control" id="searchSelect">
+													<option value="">Select</option>
+													<option value="mixed-use">Mixed-Use</option>
+													<!-- <option value="">Offices</option>
+													<option value="">Commercial</option> -->
+												</select>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg align-items-end">
+									<div class="form-group">
+										<label for="#">Location</label>
+										<div class="form-field">
+											<div class="icon"><span class="fa fa-search"></span></div>
+											<input type="text" class="form-control" placeholder="Location" id="searchTerms">
+										</div>
+									</div>
+								</div>
 
+								<div class="col-lg align-self-end">
+									<div class="form-group">
+										<div class="form-field">
+											<input type="submit" value="Search" class="form-control btn btn-primary" id="searchButton" >
+										</div>
+									</div>
+								</div>
+							</div>
+						</form>
+					
+					</div>
+					<div class="floats" id="searchRes">
+				<p id="searchResults"></p>
+			</div>
+				</div>
+			
+			</div>
+			
+		</div>
+<script>
+    const searchButton = document.querySelector("#searchButton");
+    const searchTerm = document.querySelector("#searchTerm");
+    const searchTerms = document.querySelector("#searchTerms");
+    const searchSel = document.getElementById("searchSelect");
+
+
+    const searchResults = document.querySelector("#searchResults");
+	const searchCon = document.querySelector("#searchRes");
+    searchButton.addEventListener("click", function () {
+      // Search data using the searchTerm value as a parameter
+      const searchResultsData = searchData(searchTerm.value);
+	  searchCon.classList.add("active");
+      // Clear previous search results
+      searchResults.innerHTML = "";
+
+      // Display the search results
+      searchResultsData.forEach(function (item) {
+        const itemElement = document.createElement("div");
+        itemElement.innerHTML = item.name;
+        itemElement.addEventListener("click", function () {
+          // Navigate to the item details page
+          window.location.href = `/item-details/${item.id}`;
+        });
+        searchResults.appendChild(itemElement);
+      });
+    });
+	searchTerm.addEventListener("input", function () {
+      // Search data using the searchTerm value as a parameter
+      const searchResultsData = searchData(searchTerm.value);
+	  searchCon.classList.add("active");
+      // Clear previous search results
+      searchResults.innerHTML = "";
+
+      // Display the search results
+      searchResultsData.forEach(function (item) {
+        const itemElement = document.createElement("div");
+        itemElement.innerHTML = item.name;
+        itemElement.addEventListener("click", function () {
+          // Navigate to the item details page
+          window.location.href = `/${item.link}`;
+        });
+        searchResults.appendChild(itemElement);
+      });
+    });
+	searchTerms.addEventListener("input", function () {
+      // Search data using the searchTerm value as a parameter
+      const searchResultsData = searchData(searchTerms.value);
+	  searchCon.classList.add("active");
+      // Clear previous search results
+      searchResults.innerHTML = "";
+
+      // Display the search results
+      searchResultsData.forEach(function (item) {
+        const itemElement = document.createElement("div");
+        itemElement.innerHTML = item.name;
+        itemElement.addEventListener("click", function () {
+          // Navigate to the item details page
+          window.location.href = `/${item.link}`;
+        });
+        searchResults.appendChild(itemElement);
+      });
+    });
+	searchSel.addEventListener("change", function (event) {
+      // Search data using the searchTerm value as a parameter
+      const searchResultsData = searchData(event.target.value);
+	  searchCon.classList.add("active");
+      // Clear previous search results
+      searchResults.innerHTML = "";
+		console.log(event.target.value);
+      // Display the search results
+      searchResultsData.forEach(function (item) {
+        const itemElement = document.createElement("div");
+        itemElement.innerHTML = item.name;
+        itemElement.addEventListener("click", function () {
+          // Navigate to the item details page
+          window.location.href = `/${item.link}`;
+        });
+        searchResults.appendChild(itemElement);
+      });
+    });
+    function searchData(searchTerm) {
+      // Implement your search logic here
+      const items = [
+        { id: 1, name: "PMI Tower" ,location:"Makati City",link:"pmi_tower",type:"mixed-use"},
+        { id: 2, name: "The Mondrian",location:"Makati City" ,link:"mondrian",type:"mixed-use"},
+        { id: 3, name: "Market Mall",location:"Ormoc City" ,link:"market_mall",type:"mixed-use"},
+      ];
+
+      const searchTermAsNumber = parseInt(searchTerm);
+      return items.filter(function (item) {
+        return (
+			item.id === searchTermAsNumber || item.location.toLowerCase().includes(searchTerm.toLowerCase()) || item.type.toLowerCase().includes(searchTerm.toLowerCase()) || item.name.toLowerCase().includes(searchTerm.toLowerCase())
+        );
+      });
+    }
+</script>
+  </section>
 	<section class="ftco-section">
 		<div class="container">
 			<div class="row justify-content-center">

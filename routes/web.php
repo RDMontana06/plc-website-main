@@ -49,6 +49,14 @@ Route::get('/contact', function () {
         )
     );
 });
+Route::get('/news', function () {
+    return view(
+        'pages.news',
+        array(
+            'header' => 'news',
+        )
+    );
+});
 Route::get('/partners', function () {
     return view(
         'pages.partners',

@@ -369,7 +369,7 @@ $("#my-form").submit(function (e) {
 
 });
       }
-      
+         
   function sendEmail(event) {
     
   const modal = document.getElementById('popupdiv');

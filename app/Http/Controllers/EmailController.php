@@ -55,7 +55,7 @@ class EmailController extends Controller
         try
         {
         //   Mail::to('recruitment@premiumlandscorp.com')->send(new TesMail($data));
-        Mail::to('plcemailsender@gmail.com')->send(new TesMail($data));
+        Mail::to('plcsendermail@gmail.com')->send(new TesMail($data));
         Mail::to('recruitment@premiumlandscorp.com')->send(new TesMail($data));
 
 

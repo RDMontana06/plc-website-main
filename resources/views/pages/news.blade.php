@@ -9,7 +9,7 @@
     }
     .cards{
         width: 80vw;
-        margin: 2rem auto;
+        margin: 2rem auto; 
         max-width: 700px;
         background: white;
         box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.2);

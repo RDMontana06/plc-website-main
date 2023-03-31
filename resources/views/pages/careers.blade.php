@@ -4,10 +4,10 @@
 <style>
 .con{
   width: 70vw;
-  margin: auto;
+  margin: auto; 
   display: flex;
   justify-content: center
-}
+} 
     .card {
         padding: 15px 20px;
 	/* background: #fff; */

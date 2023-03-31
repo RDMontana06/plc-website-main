@@ -354,7 +354,7 @@ animation: hide 30s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   </div></div>
 </div>
 
-<script>
+<script> 
   function submit() {    
     // document.getElementById('submit').style.pointer-events = 'none';
     $(document).ready(function () {

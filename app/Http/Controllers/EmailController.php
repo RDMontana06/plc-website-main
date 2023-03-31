@@ -67,7 +67,7 @@ class EmailController extends Controller
       )->with("data","sent");
     
         }
-        catch(Exception $e)
+        catch(Exception $e) 
         {
            return view(
           'pages.careers',

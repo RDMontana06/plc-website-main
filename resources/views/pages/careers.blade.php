@@ -83,8 +83,9 @@ outline: none;
 }
 .container.modalpop{
     background-color: #ffff;
-    height: 80vh;
+    /* height: 80vh; */
     max-height: 800px;
+    padding: 2rem 1rem;
    width: 600px;
     position: relative;
     margin: auto;
@@ -348,17 +349,27 @@ animation: hide 30s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
       required="true">
     </div>
 
-    <input class="button" type="submit" value="Submit" id="submit" onclick="submit()" >
+    <input class="button" type="submit" value="Submit" id="submit" onclick="" >
   </form>
   </div></div>
 </div>
 
-<script>
+<script> 
   function submit() {    
     // document.getElementById('submit').style.pointer-events = 'none';
-    
+    $(document).ready(function () {
+
+$("#my-form").submit(function (e) {
+
+    $("#btn-submit").attr("disabled", true);
+
+    return true;
+
+});
+
+});
       }
-      
+         
   function sendEmail(event) {
     
   const modal = document.getElementById('popupdiv');
